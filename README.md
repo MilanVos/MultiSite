@@ -110,3 +110,4 @@ De plugin is ontworpen om samen te werken met een webgebaseerd beheerderspaneel.
 Voor vragen of ondersteuning, neem contact op via:
 - GitHub Issues: [https://github.com/MilanVos/multisite/issues](https://github.com/MilanVos/multisite/issues)
 - Email: MilanV2005@outlook.com
+- Discord: multitime
