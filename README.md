@@ -12,7 +12,7 @@ MultiSite is een Minecraft plugin die een brug vormt tussen je Minecraft server 
 
 ## Installatie
 
-1. Download het laatste MultiSite.jar bestand uit de [Releases](https://github.com/yourusername/multisite/releases) sectie
+1. Download het laatste MultiSite.jar bestand uit de [Releases](https://github.com/MilanVos/multisite/releases) sectie
 2. Plaats het .jar bestand in de `plugins` map van je Minecraft server
 3. Start of herstart je server
 4. De plugin zal automatisch de benodigde configuratiebestanden aanmaken
@@ -84,7 +84,7 @@ De plugin is ontworpen om samen te werken met een webgebaseerd beheerderspaneel.
 
 ### Voorbeeld webpaneel setup:
 
-1. Clone de [MultiSite-Web](https://github.com/yourusername/multisite-web) repository
+1. Clone de [MultiSite-Web](https://github.com/MilanVos/multisite.git) repository
 2. Installeer de vereiste dependencies: `npm install`
 3. Configureer de API URL en key in het `.env` bestand
 4. Start de webserver: `npm start`
@@ -100,24 +100,10 @@ De plugin is ontworpen om samen te werken met een webgebaseerd beheerderspaneel.
 
 ### Bouwen vanuit broncode
 
-1. Clone de repository: `git clone https://github.com/yourusername/multisite.git`
+1. Clone de repository: `git clone https://github.com/MilanVos/multisite.git`
 2. Navigeer naar de project directory: `cd multisite`
 3. Bouw het project met Maven: `mvn clean package`
 4. Het gebouwde .jar bestand is te vinden in de `target` map
-
-## Bijdragen
-
-Bijdragen aan het project zijn welkom! Voel je vrij om issues te melden of pull requests in te dienen.
-
-1. Fork de repository
-2. Maak een feature branch: `git checkout -b mijn-nieuwe-feature`
-3. Commit je wijzigingen: `git commit -am 'Voeg een nieuwe feature toe'`
-4. Push naar de branch: `git push origin mijn-nieuwe-feature`
-5. Dien een pull request in
-
-## Licentie
-
-Dit project is gelicenseerd onder de MIT Licentie - zie het [LICENSE](LICENSE) bestand voor details.
 
 ## Contact
 
