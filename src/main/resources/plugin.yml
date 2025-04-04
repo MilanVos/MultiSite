@@ -1,6 +1,25 @@
 name: MultiSite
-version: '1.0'
+version: '1.0.0'
 main: nl.multitime.multiSite.MultiSite
-api-version: '1.19'
-authors: [ MultiDevelopment ]
-description: Minecraft Client Made by Multtime himself
+api-version: '1.16'
+authors: [MultiTime]
+description: A Minecraft plugin that connects to a website admin panel
+commands:
+  multisite:
+    description: Main command for MultiSite plugin
+    usage: /multisite <reload|stats|api|help>
+    aliases: [ms]
+    permission: multisite.admin
+permissions:
+  multisite.admin:
+    description: Allows access to all MultiSite commands
+    default: op
+  multisite.admin.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  multisite.admin.stats:
+    description: Allows viewing server statistics
+    default: op
+  multisite.admin.api:
+    description: Allows managing the API server
+    default: op
