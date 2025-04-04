@@ -1,0 +1,45 @@
+# MultiSite Configuration
+
+# API Settings
+api:
+  # Port for the REST API server
+  port: 8080
+  # API key for authentication (change this to a secure value!)
+  key: "change-me-to-a-secure-key"
+  # Enable/disable API endpoints
+  endpoints:
+    status: true
+    players: true
+    player: true
+    stats: true
+    config: true
+
+# Data Collection Settings
+data:
+  # How often to update server statistics (in seconds)
+  update-interval: 60
+  # Which statistics to collect
+  collect:
+    player-stats: true
+    server-stats: true
+    performance-stats: true
+
+# Website Integration
+website:
+  # URL of the admin panel website
+  url: "http://localhost:3000"
+  # Enable/disable automatic data pushing to website
+  push-data: false
+  # How often to push data to website (in seconds)
+  push-interval: 300
+
+# Security Settings
+security:
+  # IP whitelist for API access (empty = allow all)
+  ip-whitelist: []
+  # Enable/disable SSL for API
+  use-ssl: false
+  # SSL certificate path (if SSL is enabled)
+  ssl-cert-path: ""
+  # SSL key path (if SSL is enabled)
+  ssl-key-path: ""
